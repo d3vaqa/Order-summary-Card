@@ -1,0 +1,94 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: url(img/pattern-background-desktop.svg);
+  background-size: cover;
+}
+.container {
+  font-family: "Red Hat Display", sans-serif;
+  /* background-color: hsl(225, 100%, 94%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-size: 16px;
+  background-color: #fff;
+}
+.order-summary-card {
+  background-color: hsl(225, 100%, 98%);
+
+  overflow: hidden;
+  width: 320px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.order-summary-card .card-header-img {
+  width: 100%;
+  height: auto;
+}
+.order-summary-card .card-content {
+  border: 2px;
+  padding: 12px 8px;
+}
+.order-summary-card .card-heading {
+  color: hsl(223, 47%, 23%);
+}
+.order-summary-card .card-content {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+.order-summary-card .card-plan {
+  display: flex;
+  background-color: #f8f9fe;
+  padding: 0;
+  border-radius: 15px;
+  margin: 18px 20px;
+  font-size: 15px;
+  border: 1px hsl(130, 89%, 28%);
+}
+.order-summary-card .card-pricing-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px;
+}
+.order-summary-card .card-plan-heading {
+  color: hsl(223, 47%, 23%);
+  padding-top: 7px;
+  margin-left: 3px;
+}
+.order-summary-card .card-plan .card-plan-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 14px;
+}
+.order-summary-card .card-plan .card-plan-change-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  text-decoration: none;
+}
+.order-summary-card .card-payment-button {
+  width: 80%;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.order-summary-card .card-cancel-order {
+  width: 80%;
+  background-color: hsl(225, 100%, 98%);
+  color: hsl(224, 23%, 55%);
+  padding: 12px;
+  border: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
